@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import "./styles/common/reset.css"
-import Accordian from './components/accordian/accordian'
+import Accordian from './components/accordian/Accordian'
 import { IMAGE_PATH } from "./constant/Image"
 
 function App() {
