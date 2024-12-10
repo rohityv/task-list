@@ -1,0 +1,91 @@
+.container{
+  max-width: 1350px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.nav-header{
+  background-color: #2D446E;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24.22px;
+  font-weight: 700;
+  line-height: 29.52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header h1{
+  margin-left: 50px;
+  font-size: 24px;
+  font-family: Montserrat;
+}
+
+.nav-header-left{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-header-icon{
+  display: flex;
+  gap: 25px;
+  margin-right: 20px;
+  height: auto;
+}
+.nav-header-icon li img{
+  width: 24px;
+  height: 24px;
+}
+
+.banner-wrapper {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-text {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-right: 40px;
+
+}
+
+.banner-btn{
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+letter-spacing: 0.005em;
+background-color: #2D446E;
+color: #fff;
+border: none;
+padding: 12.5px;
+border-radius: 8px;
+}
+
+.banner-overview{
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+letter-spacing: 0.0025em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}

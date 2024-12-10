@@ -1,0 +1,145 @@
+.accordian{
+    margin-bottom: 25px;    
+}
+
+.Projects-heading, .Tasks-heading{
+    margin: 25px 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Projects-content, .Tasks-content, .heading, .people, .bar{
+    display: flex;
+}
+.heading, .people{
+    justify-content: space-between;
+}
+.heading-left{
+    display: flex;
+    align-items: center;
+}
+.heading-left span{
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    letter-spacing: 0.0015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.Tasks-content, .Projects-content{
+    gap: 20px;
+}
+.content-text{
+    width: 110px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    color: #fff;
+    padding: 2px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.52px;
+    letter-spacing: 0.0025em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.content-card{
+    padding: 10px;
+    /* height: 175px; */
+    width: 270px;
+    border: 1px solid #F1F1F1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.content-card > *{
+    margin-bottom: 20px;
+}
+.content-card:last-child{
+    margin-bottom:0;
+}
+
+.progress-bar{
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    margin: 0 10px;
+}
+.progress-fill{
+    background-color: #66CC66;
+    /* width: 50%; */
+    border-radius: 15px;
+    text-align: right;
+}
+
+.content-card .heading{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.52px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.content-card .bar {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.31px;
+    letter-spacing: 0.0025em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.content-card .date {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    letter-spacing: 0.0025em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.content-card .people {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.52px;
+    letter-spacing: 0.0025em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.heading-right img {
+    width: 40px;
+    height: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders don't double up */
+  }
+  
+  table, th, td {
+    border: 1px solid #000; /* Black border for table, header, and cells */
+  }
+  
+  th, td {
+    padding: 10px; /* Optional: Add padding for readability */
+    text-align: left; /* Optional: Align text to the left */
+  }
+  
